@@ -1,0 +1,3574 @@
+[
+  {
+    "id": 1,
+    "slug": "6u-openvpx-rfsoc",
+    "title": "6U OpenVPX RFSoC",
+    "subtitle": "Multi-channel transmit & receive",
+    "category": "RF & Transceivers",
+    "form": "6U",
+    "family": "RFSoC",
+    "processor": "XCZU49DR",
+    "channels": 16,
+    "summary": "Integrated RF acquisition, waveform generation and real-time signal processing.",
+    "description": [
+      "The 6U OpenVPX RFSoC is a multichannel transmit and receive platform built around the AMD Zynq UltraScale+ RFSoC XCZU49DR. It combines integrated RF data converters, a processing system and programmable logic to support RF acquisition, waveform generation and real-time digital signal processing.",
+      "The platform provides 16 RF input channels and 16 RF output channels, with dedicated DDR4 memory for the processing system and programmable logic. Ethernet, optical connectivity and backplane synchronization interfaces support integration into radar, phased-array and other multichannel RF systems."
+    ],
+    "highlights": [
+      "Integrated RF processing: XCZU49DR RFSoC combines RF conversion, embedded processing and programmable logic.",
+      "16-channel reception and transmission: Sixteen RF inputs and sixteen RF outputs with balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "High-speed optical connectivity: Eight GTY lanes connected through a FireFly optical interface at up to 25 Gbps per lane.",
+      "Ethernet connectivity: Dual Gigabit Ethernet interfaces and a 10 Gigabit Ethernet interface.",
+      "Synchronization support: External reference and synchronization inputs, onboard clock generation and a backplane synchronization bus.",
+      "Flexible storage: QSPI flash, EEPROM, microSD card slot and M.2 SSD interface.",
+      "System integration and debug: LVDS, USB 2.0, RS-232/485, JTAG, reset and UART-to-USB connectivity."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "AMD Zynq UltraScale+ RFSoC XCZU49DR"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "16 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "Integrated RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "16 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "Integrated RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ],
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "FireFly optical interface (8 × GTY lanes, up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Optical Backplane Interface",
+          "VITA 66.4"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "16"
+      ],
+      [
+        "RF outputs",
+        "16"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "6U"
+      ]
+    ],
+    "image": "/assets/products/6u-openvpx-rfsoc.webp",
+    "diagram": "/downloads/T1_P1_Block_Diagram.png",
+    "datasheet": "/downloads/T1_P1.pdf",
+    "diagram_pdf": "/downloads/T1_P1_Block_Diagram.pdf",
+    "download_package": "/downloads/T1_P1_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1523466,
+      "diagram_pdf": 709473,
+      "download_package": 2404582
+    },
+    "document_code": "T1_P1",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 2,
+    "slug": "6u-openvpx-versal-rfsoc",
+    "title": "6U OpenVPX Versal RFSoC",
+    "subtitle": "Multi-channel transmit & receive",
+    "category": "RF & Transceivers",
+    "form": "6U",
+    "family": "Versal",
+    "processor": "AMD Versal",
+    "channels": 16,
+    "summary": "Versal-based RF conversion and programmable processing for multichannel systems.",
+    "description": [
+      "The 6U OpenVPX Versal RFSoC is a multichannel transmit and receive platform built around AMD Versal processing technology. It combines RF data conversion, a processing system and programmable logic to support RF acquisition, waveform generation and real-time digital signal processing.",
+      "The platform provides 16 RF input channels and 16 RF output channels, with dedicated DDR4 memory for the processing system and programmable logic. Ethernet, optical connectivity and backplane synchronization interfaces support integration into radar, phased-array and other multichannel RF systems."
+    ],
+    "highlights": [
+      "Versal processing platform: Combines embedded processing and programmable logic for configurable RF signal processing.",
+      "16-channel reception and transmission: Sixteen RF inputs and sixteen RF outputs with balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "High-speed optical connectivity: Eight GTY lanes connected through a FireFly optical interface at up to 25 Gbps per lane.",
+      "Ethernet connectivity: Dual Gigabit Ethernet interfaces and a 10 Gigabit Ethernet interface.",
+      "Synchronization support: External reference and synchronization inputs, onboard clock generation and a backplane synchronization bus.",
+      "Flexible storage: QSPI flash, EEPROM, microSD card slot and M.2 SSD interface.",
+      "System integration and debug: LVDS, USB 2.0, RS-232/485, JTAG, reset and UART-to-USB connectivity."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "AMD Versal"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "16 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "16 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ],
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "FireFly optical interface (8 × GTY lanes, up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Optical Backplane Interface",
+          "VITA 66.4"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "16"
+      ],
+      [
+        "RF outputs",
+        "16"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "6U"
+      ]
+    ],
+    "image": "/assets/products/6u-openvpx-versal-rfsoc.webp",
+    "diagram": "/downloads/T1_P2_Block_Diagram.png",
+    "datasheet": "/downloads/T1_P2.pdf",
+    "diagram_pdf": "/downloads/T1_P2_Block_Diagram.pdf",
+    "download_package": "/downloads/T1_P2_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1449624,
+      "diagram_pdf": 635652,
+      "download_package": 2212426
+    },
+    "document_code": "T1_P2",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 3,
+    "slug": "6u-openvpx-agilex",
+    "title": "6U OpenVPX Agilex FPGA",
+    "subtitle": "Multi-channel transmit & receive",
+    "category": "RF & Transceivers",
+    "form": "6U",
+    "family": "Agilex",
+    "processor": "Agilex 9 AGRW039",
+    "channels": 16,
+    "summary": "Parallel FPGA processing with sixteen RF inputs and sixteen RF outputs.",
+    "description": [
+      "The 6U OpenVPX Agilex FPGA is a multichannel transmit and receive platform built around the Agilex 9 AGRW039 device. It combines RF data conversion, processing and programmable logic to support RF acquisition, waveform generation and real-time digital signal processing.",
+      "The platform provides 16 RF input channels and 16 RF output channels, with separate DDR4 memory banks for processing and programmable logic. Ethernet, backplane RF connections and synchronization interfaces support integration into radar, phased-array and other multichannel RF systems."
+    ],
+    "highlights": [
+      "Agilex 9 processing platform: AGRW039 device supports configurable processing and parallel digital signal processing.",
+      "16-channel reception and transmission: Sixteen RF inputs and sixteen RF outputs with balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "Backplane RF connectivity: Four RF input and four RF output connections at P2, with a reference clock connection.",
+      "Ethernet connectivity: Dual Gigabit Ethernet interfaces and a 10 Gigabit Ethernet interface.",
+      "Synchronization support: External reference and synchronization inputs, onboard clock generation and a backplane synchronization bus.",
+      "Flexible storage: QSPI flash, EEPROM, microSD card slot and M.2 SSD interface.",
+      "System integration and debug: LVDS, USB 2.0, RS-232/485, JTAG, reset and UART-to-USB connectivity."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "Agilex 9 FPGA AGRW039"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "16 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "16 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Backplane RF Connections",
+          "4 × RF inputs, 4 × RF outputs and reference clock connection at P2"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated processing and logic domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "RF Backplane Interface",
+          "RF input, RF output and reference clock connections at P2"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "16"
+      ],
+      [
+        "RF outputs",
+        "16"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "6U"
+      ]
+    ],
+    "image": "/assets/products/6u-openvpx-agilex.webp",
+    "diagram": "/downloads/T1_P3_Block_Diagram.png",
+    "datasheet": "/downloads/T1_P3.pdf",
+    "diagram_pdf": "/downloads/T1_P3_Block_Diagram.pdf",
+    "download_package": "/downloads/T1_P3_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1447557,
+      "diagram_pdf": 633581,
+      "download_package": 2207741
+    },
+    "document_code": "T1_P3",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 4,
+    "slug": "6u-openvpx-versal-radar",
+    "title": "6U OpenVPX Versal",
+    "subtitle": "Radar signal & data processing",
+    "category": "Radar & AI Processing",
+    "form": "6U",
+    "family": "Versal",
+    "processor": "AMD Versal",
+    "channels": null,
+    "summary": "Configurable parallel radar processing, data handling and system control.",
+    "description": [
+      "The 6U OpenVPX Versal Based Radar Signal and Data Processing System is a digital processing platform built around AMD Versal technology. It combines a processing system and programmable logic to support real-time radar signal processing, data handling and system control.",
+      "The platform provides dedicated DDR4 memory for the processing system and programmable logic, together with Ethernet and optical connectivity for radar data exchange. External reference, synchronization and 1PPS inputs support timing coordination, while OpenVPX backplane interfaces enable integration into modular radar systems."
+    ],
+    "highlights": [
+      "Versal processing platform: Combines embedded processing and programmable logic for configurable radar signal and data processing.",
+      "External timing support: Reference, synchronization and 1PPS inputs support coordination with radar system timing.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "High-speed optical connectivity: Eight GTY lanes connected through a FireFly optical interface at up to 25 Gbps per lane.",
+      "Ethernet connectivity: Dual Gigabit Ethernet interfaces and a 10 Gigabit Ethernet interface.",
+      "Backplane synchronization: Synchronization bus, reference clock and auxiliary clock connections support system integration.",
+      "Flexible storage: QSPI flash, EEPROM, microSD card slot and M.2 SSD interface.",
+      "System integration and debug: LVDS, USB 2.0, RS-232/485, JTAG, reset and UART-to-USB connectivity."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "AMD Versal"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "Radar signal processing": [
+        [
+          "Processing Resources",
+          "Versal programmable logic"
+        ],
+        [
+          "Signal Processing Architecture",
+          "Configurable parallel digital processing"
+        ],
+        [
+          "Data Interfaces",
+          "LVDS, Ethernet and optical connectivity"
+        ]
+      ],
+      "Radar data processing": [
+        [
+          "Processing Resources",
+          "Versal processing system"
+        ],
+        [
+          "System Functions",
+          "Radar data handling and system control"
+        ],
+        [
+          "Timing Input",
+          "External 1PPS connected to programmable logic"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "FireFly optical interface (8 × GTY lanes, up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated processing and logic domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock, synchronization and 1PPS inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Optical Backplane Interface",
+          "VITA 66.4"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "Processing",
+        "AMD Versal"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Optical lanes",
+        "8 × 25 Gbps"
+      ],
+      [
+        "Form factor",
+        "6U"
+      ]
+    ],
+    "image": "/assets/products/6u-openvpx-versal-radar.webp",
+    "diagram": "/downloads/T2_P4_Block_Diagram.png",
+    "datasheet": "/downloads/T2_P4.pdf",
+    "diagram_pdf": "/downloads/T2_P4_Block_Diagram.pdf",
+    "download_package": "/downloads/T2_P4_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1397883,
+      "diagram_pdf": 584050,
+      "download_package": 2060630
+    },
+    "document_code": "T2_P4",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 5,
+    "slug": "6u-openvpx-agilex-radar",
+    "title": "6U OpenVPX Agilex FPGA",
+    "subtitle": "Radar signal & data processing",
+    "category": "Radar & AI Processing",
+    "form": "6U",
+    "family": "Agilex",
+    "processor": "Agilex FPGA",
+    "channels": 16,
+    "summary": "Integrated RF conversion and FPGA processing for radar signal chains.",
+    "description": [
+      "The 6U OpenVPX Agilex FPGA Based Radar Signal and Data Processing System combines FPGA processing fabric with multichannel RF conversion. It supports configurable radar signal processing, RF acquisition, waveform generation and data handling within a modular OpenVPX architecture.",
+      "The platform provides 16 RF input channels and 16 RF output channels, with separate DDR4 memory banks for processing and programmable logic. Ethernet, LVDS and backplane RF connections support system connectivity, while external reference and synchronization inputs enable timing coordination across integrated radar subsystems."
+    ],
+    "highlights": [
+      "Agilex processing platform: Configurable FPGA fabric supports parallel radar signal processing, data handling and system control.",
+      "16-channel RF conversion: Sixteen RF inputs and sixteen RF outputs with ADC, DAC and balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "Backplane RF connectivity: Four RF input and four RF output connections at P2, with a reference clock connection.",
+      "Ethernet and digital interfaces: Dual Gigabit Ethernet, 10 Gigabit Ethernet and LVDS support radar data exchange.",
+      "Timing, storage and service: Reference and synchronization inputs, onboard clock generation, M.2 storage, microSD and debug interfaces."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "Agilex FPGA radar processing fabric"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "16 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "16 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Backplane RF Connections",
+          "4 × RF inputs, 4 × RF outputs and reference clock connection at P2"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated processing and logic domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "RF Backplane Interface",
+          "RF input, RF output and reference clock connections at P2"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "16"
+      ],
+      [
+        "RF outputs",
+        "16"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "6U"
+      ]
+    ],
+    "image": "/assets/products/6u-openvpx-agilex-radar.webp",
+    "diagram": "/downloads/T2_P5_Block_Diagram.png",
+    "datasheet": "/downloads/T2_P5.pdf",
+    "diagram_pdf": "/downloads/T2_P5_Block_Diagram.pdf",
+    "download_package": "/downloads/T2_P5_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1452653,
+      "diagram_pdf": 638875,
+      "download_package": 2225395
+    },
+    "document_code": "T2_P5",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 6,
+    "slug": "3u-openvpx-rfsoc",
+    "title": "3U OpenVPX RFSoC",
+    "subtitle": "Multi-channel transmit & receive",
+    "category": "RF & Transceivers",
+    "form": "3U",
+    "family": "RFSoC",
+    "processor": "XCZU49DR",
+    "channels": 8,
+    "summary": "Eight-channel RF acquisition and waveform generation in a compact 3U platform.",
+    "description": [
+      "The 3U OpenVPX RFSoC Based Multi-Channel Transmit & Receive System is a compact RF processing platform built around the AMD Zynq UltraScale+ RFSoC XCZU49DR. It combines integrated RF data converters, a processing system and programmable logic to support RF acquisition, waveform generation and real-time digital signal processing.",
+      "The platform provides eight RF input channels and eight RF output channels, with dedicated DDR4 memory for the processing system and programmable logic. Ethernet, optical connectivity and backplane synchronization interfaces support integration into radar, phased-array and other multichannel RF systems."
+    ],
+    "highlights": [
+      "Integrated RF processing: XCZU49DR RFSoC combines RF conversion, embedded processing and programmable logic in a compact 3U platform.",
+      "Eight-channel reception and transmission: Eight RF inputs and eight RF outputs with balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "High-speed optical connectivity: Eight GTY lanes connected through a FireFly optical interface at up to 25 Gbps per lane.",
+      "Ethernet and digital interfaces: Dual Gigabit Ethernet, 10 Gigabit Ethernet and LVDS support RF data exchange.",
+      "Timing, storage and service: Reference and synchronization inputs, onboard clock generation, M.2 storage, microSD and debug interfaces."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "3U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "AMD Zynq UltraScale+ RFSoC XCZU49DR"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "8 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "Integrated RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "8 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "Integrated RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "FireFly optical interface (8 × GTY lanes, up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Optical Backplane Interface",
+          "VITA 66.4"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "8"
+      ],
+      [
+        "RF outputs",
+        "8"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "3U"
+      ]
+    ],
+    "image": "/assets/products/3u-openvpx-rfsoc.webp",
+    "diagram": "/downloads/T3_P6_Block_Diagram.png",
+    "datasheet": "/downloads/T3_P6.pdf",
+    "diagram_pdf": "/downloads/T3_P6_Block_Diagram.pdf",
+    "download_package": "/downloads/T3_P6_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1499444,
+      "diagram_pdf": 641139,
+      "download_package": 2276465
+    },
+    "document_code": "T3_P6",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 7,
+    "slug": "3u-openvpx-versal-rfsoc",
+    "title": "3U OpenVPX Versal RFSoC",
+    "subtitle": "Multi-channel transmit & receive",
+    "category": "RF & Transceivers",
+    "form": "3U",
+    "family": "Versal",
+    "processor": "AMD Versal",
+    "channels": 8,
+    "summary": "Compact multichannel RF conversion with dedicated processing and logic resources.",
+    "description": [
+      "The 3U OpenVPX Versal RFSoC Based Multi-Channel Transmit & Receive System is a compact RF processing platform built around AMD Versal technology. It combines RF data conversion, a processing system and programmable logic to support RF acquisition, waveform generation and real-time digital signal processing.",
+      "The platform provides eight RF input channels and eight RF output channels, with dedicated DDR4 memory for the processing system and programmable logic. Ethernet, optical connectivity and backplane synchronization interfaces support integration into radar, phased-array and other multichannel RF systems."
+    ],
+    "highlights": [
+      "Versal processing platform: Combines embedded processing and programmable logic for configurable RF signal processing in a compact 3U platform.",
+      "Eight-channel reception and transmission: Eight RF inputs and eight RF outputs with ADC, DAC and balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "High-speed optical connectivity: Eight GTY lanes connected through a FireFly optical interface at up to 25 Gbps per lane.",
+      "Ethernet and digital interfaces: Dual Gigabit Ethernet, 10 Gigabit Ethernet and LVDS support RF data exchange.",
+      "Timing, storage and service: Reference and synchronization inputs, onboard clock generation, M.2 storage, microSD and debug interfaces."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "3U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "AMD Versal"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "8 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "8 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "FireFly optical interface (8 × GTY lanes, up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Optical Backplane Interface",
+          "VITA 66.4"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "8"
+      ],
+      [
+        "RF outputs",
+        "8"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "3U"
+      ]
+    ],
+    "image": "/assets/products/3u-openvpx-versal-rfsoc.webp",
+    "diagram": "/downloads/T3_P7_Block_Diagram.png",
+    "datasheet": "/downloads/T3_P7.pdf",
+    "diagram_pdf": "/downloads/T3_P7_Block_Diagram.pdf",
+    "download_package": "/downloads/T3_P7_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1487884,
+      "diagram_pdf": 629598,
+      "download_package": 2238094
+    },
+    "document_code": "T3_P7",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 8,
+    "slug": "3u-openvpx-agilex",
+    "title": "3U OpenVPX Agilex FPGA",
+    "subtitle": "Multi-channel transmit & receive",
+    "category": "RF & Transceivers",
+    "form": "3U",
+    "family": "Agilex",
+    "processor": "Agilex 9 AGRW039",
+    "channels": 8,
+    "summary": "Eight RF inputs and outputs with configurable processing on Agilex 9.",
+    "description": [
+      "The 3U OpenVPX Agilex FPGA Based Multi-Channel Transmit & Receive System is a compact RF processing platform built around the Agilex 9 AGRW039 device. It combines RF data conversion, processing and programmable logic to support RF acquisition, waveform generation and real-time digital signal processing.",
+      "The platform provides eight RF input channels and eight RF output channels, with separate DDR4 memory banks for processing and programmable logic. Ethernet, LVDS and backplane RF connections support system connectivity, while external reference and synchronization inputs enable timing coordination across integrated radar and multichannel RF systems."
+    ],
+    "highlights": [
+      "Agilex 9 processing platform: AGRW039 device supports configurable processing and parallel digital signal processing in a compact 3U platform.",
+      "Eight-channel reception and transmission: Eight RF inputs and eight RF outputs with ADC, DAC and balun interfaces.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "Backplane RF connectivity: Four RF input and four RF output connections at P2, with a reference clock connection.",
+      "Ethernet and digital interfaces: Dual Gigabit Ethernet, 10 Gigabit Ethernet and LVDS support RF data exchange.",
+      "Timing, storage and service: Reference and synchronization inputs, onboard clock generation, M.2 storage, microSD and debug interfaces."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "3U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "Agilex 9 FPGA AGRW039"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "8 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "8 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Backplane RF Connections",
+          "4 × RF inputs, 4 × RF outputs and reference clock connection at P2"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "RF Backplane Interface",
+          "RF input, RF output and reference clock connections at P2"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "8"
+      ],
+      [
+        "RF outputs",
+        "8"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "3U"
+      ]
+    ],
+    "image": "/assets/products/3u-openvpx-agilex.webp",
+    "diagram": "/downloads/T3_P8_Block_Diagram.png",
+    "datasheet": "/downloads/T3_P8.pdf",
+    "diagram_pdf": "/downloads/T3_P8_Block_Diagram.pdf",
+    "download_package": "/downloads/T3_P8_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1485510,
+      "diagram_pdf": 627220,
+      "download_package": 2232353
+    },
+    "document_code": "T3_P8",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 9,
+    "slug": "3u-openvpx-versal-radar",
+    "title": "3U OpenVPX Versal",
+    "subtitle": "Radar signal & data processing",
+    "category": "Radar & AI Processing",
+    "form": "3U",
+    "family": "Versal",
+    "processor": "AMD Versal",
+    "channels": null,
+    "summary": "Radar data handling and parallel signal processing in a compact 3U footprint.",
+    "description": [
+      "The 3U OpenVPX Versal Based Radar Signal & Data Processing System is a compact digital processing platform built around AMD Versal technology. It combines a processing system and programmable logic to support real-time radar signal processing, data handling and system control.",
+      "The platform provides dedicated DDR4 memory for the processing system and programmable logic, together with Ethernet and optical connectivity for radar data exchange. External reference, synchronization and 1PPS inputs support timing coordination, while OpenVPX backplane interfaces enable integration into modular radar systems."
+    ],
+    "highlights": [
+      "Versal processing platform: Combines embedded processing and programmable logic for configurable radar signal and data processing in a compact 3U platform.",
+      "External timing support: Reference, synchronization and 1PPS inputs support coordination with radar system timing.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "High-speed optical connectivity: Eight GTY lanes connected through a FireFly optical interface at up to 25 Gbps per lane.",
+      "Ethernet and digital interfaces: Dual Gigabit Ethernet, 10 Gigabit Ethernet and LVDS support radar data exchange.",
+      "Storage and service interfaces: M.2 SSD, microSD, QSPI flash, EEPROM, USB, serial communication and debug connections support system operation."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "3U OpenVPX"
+        ],
+        [
+          "Processing Device",
+          "AMD Versal"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "Radar signal processing": [
+        [
+          "Processing Resources",
+          "Versal programmable logic"
+        ],
+        [
+          "Signal Processing Architecture",
+          "Configurable parallel digital processing"
+        ],
+        [
+          "Data Interfaces",
+          "LVDS, Ethernet and optical connectivity"
+        ]
+      ],
+      "Radar data processing": [
+        [
+          "Processing Resources",
+          "Versal processing system"
+        ],
+        [
+          "System Functions",
+          "Radar data handling and system control"
+        ],
+        [
+          "Timing Input",
+          "External 1PPS connected to programmable logic"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "FireFly optical interface (8 × GTY lanes, up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock, synchronization and 1PPS inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference clock and auxiliary clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Optical Backplane Interface",
+          "VITA 66.4"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "Processing",
+        "AMD Versal"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Optical lanes",
+        "8 × 25 Gbps"
+      ],
+      [
+        "Form factor",
+        "3U"
+      ]
+    ],
+    "image": "/assets/products/3u-openvpx-versal-radar.webp",
+    "diagram": "/downloads/T4_P9_Block_Diagram.png",
+    "datasheet": "/downloads/T4_P9.pdf",
+    "diagram_pdf": "/downloads/T4_P9_Block_Diagram.pdf",
+    "download_package": "/downloads/T4_P9_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1442130,
+      "diagram_pdf": 584004,
+      "download_package": 2106247
+    },
+    "document_code": "T4_P9",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 10,
+    "slug": "3u-openvpx-agilex-radar",
+    "title": "3U OpenVPX Agilex FPGA",
+    "subtitle": "Radar signal & data processing",
+    "category": "Radar & AI Processing",
+    "form": "3U",
+    "family": "Agilex",
+    "processor": "Agilex 9 AGRW014",
+    "channels": null,
+    "summary": "Direct RF-series SoC FPGA processing with embedded Arm resources.",
+    "description": [
+      "A compact 3U OpenVPX radar signal and data processing platform based on the Agilex 9 Direct RF-Series SoC FPGA AGRW014. It combines programmable logic with embedded Arm processing for configurable RF and radar applications."
+    ],
+    "highlights": [
+      "Adaptive processing: Programmable hardware for application-specific radar data pipelines.",
+      "Optical data exchange: 144-lane optical connectivity target, subject to device and link allocation.",
+      "Local DDR4 memory: 16 GB programmable-logic and 16 GB processing-memory interface targets.",
+      "Network interfaces: Three 10/25GbE SFP interfaces and one copper 10GbE target.",
+      "Timing and control: 100 MHz reference, SYSREF and IRIG-B timing provisions.",
+      "Thermal management: Conduction/liquid cooling options with monitoring and diagnostics."
+    ],
+    "specs": {
+      "Processing & memory": [
+        [
+          "Processing architecture",
+          "Agilex FPGA; device and package selected per configuration"
+        ],
+        [
+          "Programmable-logic memory",
+          "1 x 16 GB DDR4 interface target"
+        ],
+        [
+          "Processing memory",
+          "1 x 16 GB DDR4 interface target"
+        ],
+        [
+          "Non-volatile memory",
+          "32 GB eMMC; 2 Gb flash (256 MB)"
+        ],
+        [
+          "Removable / SSD storage",
+          "Two SD interfaces; 2 TB SSD target; allocation configurable"
+        ]
+      ],
+      "Optical, Ethernet & digital I/O": [
+        [
+          "Optical serial I/O",
+          "144 lanes through optical transceivers (configuration target)"
+        ],
+        [
+          "SFP Ethernet",
+          "3 x 25GbE / 10GbE targets"
+        ],
+        [
+          "Copper Ethernet",
+          "1 x 10GbE target"
+        ],
+        [
+          "GPIO",
+          "40 single-ended / differential I/O target"
+        ],
+        [
+          "Debug / service",
+          "Device-specific JTAG / debug; USB service interface; one UART"
+        ],
+        [
+          "Serial-link allocation",
+          "Lane counts are design targets; device capacity, optical modules and physical routing define the achievable implementation."
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock inputs / outputs",
+          "100 MHz external / internal; SYSREF and 100 MHz outputs"
+        ],
+        [
+          "Time reference",
+          "IRIG-B interface and time stamping"
+        ]
+      ],
+      "Power & OpenVPX integration": [
+        [
+          "Form factor / backplane",
+          "3U OpenVPX; VITA 46 / VITA 65 design basis"
+        ],
+        [
+          "Power architecture",
+          "VPX-derived rails with on-board regulation"
+        ],
+        [
+          "VPX rail connections",
+          "3.3 V, 5 V, 12 V, VBAT and auxiliary/sense connections as applicable."
+        ],
+        [
+          "Reset / power-fail inputs",
+          "SYSRESET_L and POWER_FAIL_L routed to the processing device."
+        ],
+        [
+          "Card-fail output",
+          "CARD_FAIL_L from the processing device to the card edge."
+        ],
+        [
+          "Differential reference clock",
+          "REF_CLK_P / REF_CLK_N input at the VPX card edge."
+        ],
+        [
+          "RTM and retention",
+          "Matched all-I/O rear breakout; card insertion/ejection and locking provisions."
+        ],
+        [
+          "Reference peripherals",
+          "2 x GbE, USB 2.0, RS-232/485, PCIe x8, 14 I/O, 16 LVDS, EEPROM/QSPI, SD/M.2, reset/JTAG/1PPS and VITA 66.4 options."
+        ]
+      ],
+      "Monitoring, thermal & diagnostics": [
+        [
+          "Health monitoring",
+          "Over/undervoltage and temperature; status LEDs and fault reporting"
+        ],
+        [
+          "Thermal sensing",
+          "At least two sensors connected to the processing device"
+        ],
+        [
+          "Diagnostics",
+          "Hardware loopback and built-in-test provisions"
+        ],
+        [
+          "Cooling",
+          "Conduction-cooled and liquid-cooled design options"
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "RF channel count, converter sample rate and memory capacity are under review. Contact engineering for confirmed specifications.",
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "Device",
+        "AGRW014"
+      ],
+      [
+        "Processing",
+        "Arm Cortex-A53"
+      ],
+      [
+        "Form factor",
+        "3U OpenVPX"
+      ],
+      [
+        "RF configuration",
+        "Under review"
+      ]
+    ],
+    "image": "/assets/products/3u-openvpx-agilex-radar.webp",
+    "diagram": "/downloads/T4_P10_Block_Diagram.png",
+    "datasheet": "/downloads/T4_P10.pdf",
+    "diagram_pdf": "/downloads/T4_P10_Block_Diagram.pdf",
+    "download_package": "/downloads/T4_P10_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1490743,
+      "diagram_pdf": 632657,
+      "download_package": 2251077
+    },
+    "document_code": "T4_P10",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 11,
+    "slug": "6u-phased-array-rfsoc",
+    "title": "6U Phased-array RFSoC",
+    "subtitle": "Antenna backplane processing",
+    "category": "RF & Transceivers",
+    "form": "6U",
+    "family": "RFSoC",
+    "processor": "XCZU49DR",
+    "channels": 16,
+    "summary": "RF conversion and digital radar processing with antenna backplane connectivity.",
+    "description": [
+      "The 6U Phased Array Antenna Backplane RFSoC Based Multi-Channel Transmit & Receive System is built around the AMD Zynq UltraScale+ RFSoC XCZU49DR. It combines integrated RF conversion, embedded processing and programmable logic to support multichannel acquisition, waveform generation and phased-array radar processing.",
+      "The platform provides 16 RF input channels and 16 RF output channels, with dedicated DDR4 memory for the processing system and programmable logic. Digital beamforming, frequency conversion, pulse compression, Doppler processing and CFAR functions support radar operation, while optical connectivity and antenna backplane interfaces provide data exchange and element control."
+    ],
+    "highlights": [
+      "Integrated RF processing: XCZU49DR RFSoC combines RF conversion, embedded processing and programmable logic for phased-array applications.",
+      "16-channel reception and transmission: Sixteen RF inputs and sixteen RF outputs with balun interfaces.",
+      "Radar processing functions: Digital beamforming, DDC/DUC, pulse compression, Doppler processing, CFAR and transmit/receive control.",
+      "Dedicated processing memory: Separate 16 GB DDR4 banks for the processing system and programmable logic.",
+      "Antenna backplane connectivity: Eight optical lanes at up to 25 Gbps per lane, with element-control, trigger and reference-clock connections.",
+      "System connectivity and service: Dual Gigabit Ethernet, 10 Gigabit Ethernet, LVDS, M.2 storage, microSD and debug interfaces."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U card with phased-array antenna backplane connectivity"
+        ],
+        [
+          "Processing Device",
+          "AMD Zynq UltraScale+ RFSoC XCZU49DR"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "RF receiver": [
+        [
+          "Number of Receive Channels",
+          "16 RF input channels"
+        ],
+        [
+          "Input Interface",
+          "Balun-coupled RF inputs"
+        ],
+        [
+          "Data Conversion",
+          "Integrated RF ADCs"
+        ]
+      ],
+      "RF transmitter": [
+        [
+          "Number of Transmit Channels",
+          "16 RF output channels"
+        ],
+        [
+          "Output Interface",
+          "Balun-coupled RF outputs"
+        ],
+        [
+          "Data Conversion",
+          "Integrated RF DACs"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "Optical Interface",
+          "8 × GTY lanes connected to optical data interface (up to 25 Gbps per lane)"
+        ],
+        [
+          "Digital I/O",
+          "LVDS"
+        ],
+        [
+          "Storage Interfaces",
+          "microSD card slot and M.2 SSD interface"
+        ],
+        [
+          "Peripheral Interfaces",
+          "USB 2.0 and RS-232/485"
+        ],
+        [
+          "Processing Architecture",
+          "Integrated processing system (PS) and programmable logic (PL)"
+        ],
+        [
+          "PS Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "PL Memory",
+          "16 GB DDR4"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; dedicated PS and PL domain clocks"
+        ],
+        [
+          "External Timing Inputs",
+          "Reference clock and synchronization inputs"
+        ],
+        [
+          "Backplane Timing",
+          "Synchronization bus, VPX reference and auxiliary clocks; antenna trigger and reference-clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Antenna Backplane Interfaces",
+          "Optical data, element control, trigger, reference clock and 16-channel Tx/Rx RF connections"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "RF inputs",
+        "16"
+      ],
+      [
+        "RF outputs",
+        "16"
+      ],
+      [
+        "PS + PL memory",
+        "16 + 16 GB"
+      ],
+      [
+        "Form factor",
+        "6U"
+      ]
+    ],
+    "image": "/assets/products/6u-phased-array-rfsoc.webp",
+    "diagram": "/downloads/T5_P11_Block_Diagram.png",
+    "datasheet": "/downloads/T5_P11.pdf",
+    "diagram_pdf": "/downloads/T5_P11_Block_Diagram.pdf",
+    "download_package": "/downloads/T5_P11_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1623168,
+      "diagram_pdf": 1507004,
+      "download_package": 4189085
+    },
+    "document_code": "T5_P11",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 12,
+    "slug": "nvidia-jetson-radar",
+    "title": "NVIDIA Jetson Radar Processor",
+    "subtitle": "Tracking, perception & AI inference",
+    "category": "Radar & AI Processing",
+    "form": "VPX carrier",
+    "family": "Jetson",
+    "processor": "NVIDIA Jetson",
+    "channels": null,
+    "summary": "Radar data processing, object tracking and trained-model inference on Jetson.",
+    "description": [
+      "The Radar Processing System Based on NVIDIA Jetson is a computing platform for radar data processing, tracking, perception and AI inference. It combines Jetson processing resources with memory, storage and communication interfaces to support software-defined radar analytics and system control.",
+      "The platform provides Ethernet connectivity for radar data exchange, together with USB, serial and digital interfaces for system integration. Onboard clock generation and backplane synchronization connections support timing coordination, while M.2 storage, microSD and nonvolatile memory support application deployment and data management."
+    ],
+    "highlights": [
+      "Jetson processing platform: NVIDIA Jetson module supports radar data processing, tracking, perception and AI inference workloads.",
+      "Tracking and perception: Configurable application processing supports interpretation of radar data and tracking of detected objects.",
+      "AI inference capability: Jetson computing resources support deployment of trained models for radar data analytics.",
+      "Memory and storage: 16 GB system memory, M.2 SSD interface, microSD card slot, QSPI flash and EEPROM.",
+      "Ethernet and peripheral interfaces: Dual Gigabit Ethernet, 10 Gigabit Ethernet, USB 2.0 and RS-232/485 support system connectivity.",
+      "Timing and service interfaces: Onboard clock generation, backplane synchronization, JTAG, reset and UART-to-USB connections support integration and debug."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "NVIDIA Jetson module with VPX carrier interfaces"
+        ],
+        [
+          "Processing Device",
+          "NVIDIA Jetson"
+        ],
+        [
+          "Power Input",
+          "12 V DC with onboard power management"
+        ]
+      ],
+      "Radar data processing": [
+        [
+          "Processing Platform",
+          "Jetson computing resources"
+        ],
+        [
+          "Application Functions",
+          "Radar data processing, tracking and perception"
+        ],
+        [
+          "Data Connectivity",
+          "Gigabit Ethernet and 10 Gigabit Ethernet"
+        ]
+      ],
+      "AI processing": [
+        [
+          "Processing Function",
+          "AI inference"
+        ],
+        [
+          "Application Workloads",
+          "Trained-model execution for radar analytics"
+        ],
+        [
+          "Software Functions",
+          "Configurable tracking and perception applications"
+        ]
+      ],
+      "Digital interfaces & memory": [
+        [
+          "Removable Storage",
+          "microSD card slot"
+        ],
+        [
+          "SSD Interface",
+          "M.2 SSD interface"
+        ],
+        [
+          "Digital Interface",
+          "LVDS connection"
+        ],
+        [
+          "Ethernet Interfaces",
+          "2 × 1 Gigabit Ethernet, 1 × 10 Gigabit Ethernet"
+        ],
+        [
+          "USB Interface",
+          "USB 2.0 through USB PHY"
+        ],
+        [
+          "Serial Interface",
+          "RS-232/485 through serial transceiver"
+        ],
+        [
+          "Processing Architecture",
+          "NVIDIA Jetson computing module"
+        ],
+        [
+          "System Memory Capacity",
+          "16 GB"
+        ],
+        [
+          "Nonvolatile Memory",
+          "QSPI flash and EEPROM"
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock Generation",
+          "Onboard clock generator; external clock connections"
+        ],
+        [
+          "Backplane Synchronization",
+          "Synchronization bus connection"
+        ],
+        [
+          "Backplane Timing",
+          "VPX reference clock, auxiliary clock and P2 reference clock connections"
+        ]
+      ],
+      "Backplane & service": [
+        [
+          "VPX Connections",
+          "P0, P1 and P2"
+        ],
+        [
+          "Backplane RF Connections",
+          "4 × RF input and 4 × RF output connections at P2"
+        ],
+        [
+          "Debug Interfaces",
+          "JTAG and UART-to-USB"
+        ],
+        [
+          "Service Connections",
+          "Micro-USB and reset"
+        ],
+        [
+          "Status Indication",
+          "Onboard LEDs"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "Compute",
+        "NVIDIA Jetson"
+      ],
+      [
+        "System memory",
+        "16 GB"
+      ],
+      [
+        "Network",
+        "10 GbE"
+      ],
+      [
+        "Application",
+        "Radar & AI"
+      ]
+    ],
+    "image": "/assets/products/nvidia-jetson-radar.webp",
+    "diagram": "/downloads/T7_P16_Block_Diagram.png",
+    "datasheet": "/downloads/T7_P16.pdf",
+    "diagram_pdf": "/downloads/T7_P16_Block_Diagram.pdf",
+    "download_package": "/downloads/T7_P16_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1383482,
+      "diagram_pdf": 564654,
+      "download_package": 2006749
+    },
+    "document_code": "T7_P16",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 13,
+    "slug": "6u-liquid-cooled-lru",
+    "title": "6U Liquid-cooled LRU",
+    "subtitle": "Integrated line replaceable unit",
+    "category": "Integrated Systems",
+    "form": "6U",
+    "family": "System",
+    "processor": "RFSoC + Versal",
+    "channels": null,
+    "summary": "A modular RFSoC and Versal system with a monitored liquid-cooling path.",
+    "description": [
+      "A 6U VPX line replaceable unit with liquid cooling. The documented configuration combines eight RFSoC cards, two Versal cards, one clock distribution and I/O card, and two power cards. The chassis supports system integration through shared power, timing, control and inter-card connectivity."
+    ],
+    "highlights": [
+      "Modular 13-card VPX configuration: Combines 8 × 6U RFSoC cards, 2 × 6U Versal cards, 1 × Clock Distribution & I/O card and 2 × Power cards.",
+      "Monitored liquid cooling: Conduction-cooled cards mated to a chassis cold-wall with liquid coolant inlet, outlet and flow monitoring.",
+      "Quick-disconnect thermal interface: Cold-wall couplings and sensor provisions (level, pressure, temperature and flow) for reliable heat rejection.",
+      "Rugged CNC-machined enclosure: Slot-mounted Aluminum 6061-T6 chassis (830 × 340 × 240 mm, 35 kg empty).",
+      "System-level synchronization: Shared backplane timing, trigger distribution, control bus and high-speed inter-card links.",
+      "Environmental readiness: Designed for −10°C to +60°C operating temperature and −51°C to +85°C storage temperature."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U VPX"
+        ],
+        [
+          "Cooling Method",
+          "Liquid cooling"
+        ]
+      ],
+      "Mechanical architecture": [
+        [
+          "Length",
+          "830 mm"
+        ],
+        [
+          "Width",
+          "340 mm"
+        ],
+        [
+          "Height",
+          "240 mm"
+        ],
+        [
+          "Mass",
+          "35 kg (chassis only)"
+        ],
+        [
+          "Chassis material",
+          "Aluminum 6061-T6"
+        ],
+        [
+          "Construction",
+          "CNC machined"
+        ],
+        [
+          "Mounting",
+          "Slot"
+        ],
+        [
+          "VPX slot count",
+          "Confirm with engineering"
+        ],
+        [
+          "Populated slots",
+          "13 cards: 8 RFSoC + 2 Versal + 1 Clock I/O + 2 Power"
+        ]
+      ],
+      "Thermal & cooling": [
+        [
+          "Coolant type",
+          "Compatible"
+        ],
+        [
+          "Coolant inlet temperature",
+          "35°C"
+        ],
+        [
+          "Coolant outlet temperature",
+          "As per Requirement"
+        ],
+        [
+          "Maximum working temperature",
+          "+71°C"
+        ],
+        [
+          "Cards",
+          "Conduction cooled"
+        ],
+        [
+          "Cold-Wall interface",
+          "Quick-disconnect coupling"
+        ]
+      ],
+      "Environmental": [
+        [
+          "Operating temperature range",
+          "−10°C to +60°C"
+        ],
+        [
+          "Storage temperature range",
+          "−51°C to +85°C"
+        ]
+      ]
+    },
+    "notes": [
+      "The populated configuration contains 13 cards. Total backplane slot capacity is under review."
+    ],
+    "metrics": [
+      [
+        "Card configuration",
+        "13 cards"
+      ],
+      [
+        "RFSoC + Versal",
+        "8 + 2 cards"
+      ],
+      [
+        "Cooling",
+        "Liquid"
+      ],
+      [
+        "Form factor",
+        "6U VPX"
+      ]
+    ],
+    "image": "/assets/products/6u-liquid-cooled-lru.webp",
+    "diagram": "/assets/diagrams/6u-liquid-cooled-lru.png",
+    "datasheet": "/downloads/6u-liquid-cooled-lru.pdf",
+    "diagram_pdf": "/downloads/6u-liquid-cooled-lru-block-diagram.pdf",
+    "download_package": "/downloads/6u-liquid-cooled-lru-documents.zip",
+    "document_sizes": {
+      "datasheet": 1212431,
+      "diagram_pdf": 318716,
+      "download_package": 1790682
+    },
+    "document_code": "LRU-LC",
+    "document_revision": "System datasheet · 2 pages",
+    "document_pages": {
+      "datasheet": 2,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 14,
+    "slug": "6u-air-cooled-lru",
+    "title": "6U Air-cooled LRU",
+    "subtitle": "Integrated line replaceable unit",
+    "category": "Integrated Systems",
+    "form": "6U",
+    "family": "System",
+    "processor": "RFSoC + Versal",
+    "channels": null,
+    "summary": "A modular VPX card configuration in a forced-air-cooled chassis.",
+    "description": [
+      "A 6U VPX line replaceable unit with forced-air cooling. The documented configuration combines eight RFSoC cards, two Versal cards, one clock distribution and I/O card, and two power cards. The chassis supports system integration through shared power, timing, control and inter-card connectivity."
+    ],
+    "highlights": [
+      "Modular 13-card VPX configuration: Combines 8 × 6U RFSoC cards, 2 × 6U Versal cards, 1 × Clock Distribution & I/O card and 2 × Power cards.",
+      "VITA 48.1 forced-air cooling: Integrated high-performance fans, heat sinks and filtered inlet-to-exhaust airflow channels.",
+      "Continuous thermal monitoring: Built-in temperature sensing and airflow management across all populated VPX slots.",
+      "Rugged CNC-machined enclosure: Slot-mounted Aluminum 6061-T6 chassis (830 × 340 × 240 mm, 35 kg empty).",
+      "System-level synchronization: Shared backplane timing, trigger distribution, control bus and high-speed inter-card links.",
+      "Environmental readiness: Designed for −10°C to +60°C operating temperature and −51°C to +85°C storage temperature."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Form Factor",
+          "6U VPX"
+        ],
+        [
+          "Cooling Method",
+          "Forced Air Cooling"
+        ]
+      ],
+      "Mechanical architecture": [
+        [
+          "Length",
+          "830 mm"
+        ],
+        [
+          "Width",
+          "340 mm"
+        ],
+        [
+          "Height",
+          "240 mm"
+        ],
+        [
+          "Mass",
+          "35 kg (chassis only)"
+        ],
+        [
+          "Chassis material",
+          "Aluminum 6061-T6"
+        ],
+        [
+          "Construction",
+          "CNC machined"
+        ],
+        [
+          "Mounting",
+          "Slot"
+        ],
+        [
+          "VPX slot count",
+          "Confirm with engineering"
+        ],
+        [
+          "Populated slots",
+          "13 cards: 8 RFSoC + 2 Versal + 1 Clock I/O + 2 Power"
+        ]
+      ],
+      "Thermal & cooling": [
+        [
+          "Coolant type",
+          "VITA 48.1 direct forced air baseline"
+        ],
+        [
+          "Coolant inlet temperature",
+          "35°C"
+        ],
+        [
+          "Coolant outlet temperature",
+          "As per Requirement"
+        ],
+        [
+          "Maximum working temperature",
+          "+71°C"
+        ],
+        [
+          "Cards",
+          "Conduction cooled"
+        ],
+        [
+          "Airflow arrangement",
+          "Filtered inlet → forced-air path → exhaust (proposed)"
+        ]
+      ],
+      "Environmental": [
+        [
+          "Operating temperature range",
+          "−10°C to +60°C"
+        ],
+        [
+          "Storage temperature range",
+          "−51°C to +85°C"
+        ]
+      ]
+    },
+    "notes": [
+      "The populated configuration contains 13 cards. Total backplane slot capacity is under review."
+    ],
+    "metrics": [
+      [
+        "Card configuration",
+        "13 cards"
+      ],
+      [
+        "RFSoC + Versal",
+        "8 + 2 cards"
+      ],
+      [
+        "Cooling",
+        "Forced air"
+      ],
+      [
+        "Form factor",
+        "6U VPX"
+      ]
+    ],
+    "image": "/assets/products/6u-air-cooled-lru.webp",
+    "diagram": "/assets/diagrams/6u-air-cooled-lru.png",
+    "datasheet": "/downloads/6u-air-cooled-lru.pdf",
+    "diagram_pdf": "/downloads/6u-air-cooled-lru-block-diagram.pdf",
+    "download_package": "/downloads/6u-air-cooled-lru-documents.zip",
+    "document_sizes": {
+      "datasheet": 1097653,
+      "diagram_pdf": 161134,
+      "download_package": 1363869
+    },
+    "document_code": "LRU-AC",
+    "document_revision": "System datasheet · 2 pages",
+    "document_pages": {
+      "datasheet": 2,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 15,
+    "slug": "radar-support-structure",
+    "title": "Radar Support Structure",
+    "subtitle": "Phased-array installation framework",
+    "category": "Radar Infrastructure",
+    "form": "3 × 3 array",
+    "family": "Structure",
+    "processor": "Steel framework",
+    "channels": null,
+    "summary": "A braced steel mounting framework for a phased-array antenna and radome.",
+    "description": [
+      "Avarthana’s Radar support structure provides the mechanical framework for mounting an antenna array and its protective radome. The braced steel frame transfers equipment and environmental loads to the foundation while providing defined interfaces for alignment, integration and servicing. The illustrated configuration supports a phased array Radar installation."
+    ],
+    "highlights": [
+      "3 × 3 phased-array framework: Supports up to nine antenna modules (up to 1 m × 1 m per module) and protective radome.",
+      "3,000 × 3,000 × 3,000 mm steel structure: Primary 80 × 80 × 5 SHS alloy steel columns and 40 × 40 × 4 SHS top cage members with X-bracing on all four faces.",
+      "Foundation & alignment stability: Grouted pocket base conditions and precision mounting interfaces for radar alignment and servicing.",
+      "Cooling & thermal provisions: Integrated routing provisions for liquid-cooling CDU lines and thermal bridging for structural beams."
+    ],
+    "specs": {
+      "General": [
+        [
+          "Module array",
+          "3 × 3, up to 1 m × 1 m per antenna"
+        ],
+        [
+          "Cooling provision",
+          "CDU and routing"
+        ]
+      ],
+      "Structure": [
+        [
+          "Mass",
+          "1,451.28 kg"
+        ],
+        [
+          "Footprint",
+          "3,000 × 3,000 mm"
+        ],
+        [
+          "Height",
+          "3,000 mm"
+        ],
+        [
+          "Primary columns",
+          "80 × 80 × 5 SHS, Alloy Steel (IS 4923)"
+        ],
+        [
+          "Top cage members",
+          "40 × 40 × 4 SHS + 33 mm diameter rod diagonals"
+        ],
+        [
+          "Construction",
+          "Welding / fasteners"
+        ],
+        [
+          "Bracing",
+          "X-bracing on all four faces"
+        ],
+        [
+          "Base condition",
+          "Grouted pocket"
+        ]
+      ],
+      "Standards listed": [
+        [
+          "IS 800:2007",
+          "Steel structure design checks"
+        ],
+        [
+          "IS 875",
+          "Building and structure design loads, other than earthquake"
+        ],
+        [
+          "IS 4923",
+          "Hollow steel section properties"
+        ]
+      ]
+    },
+    "notes": [],
+    "metrics": [
+      [
+        "Module array",
+        "3 × 3"
+      ],
+      [
+        "Footprint",
+        "3 × 3 m"
+      ],
+      [
+        "Height",
+        "3 m"
+      ],
+      [
+        "Structure",
+        "Braced steel"
+      ]
+    ],
+    "image": "/assets/products/radar-support-structure.webp",
+    "diagram": null,
+    "datasheet": "/downloads/radar-support-structure.pdf",
+    "diagram_pdf": null,
+    "download_package": "/downloads/radar-support-structure-documents.zip",
+    "document_sizes": {
+      "datasheet": 906347,
+      "download_package": 890451
+    },
+    "document_code": "RSS-3X3",
+    "document_revision": "Structural datasheet · 2 pages",
+    "document_pages": {
+      "datasheet": 2
+    }
+  },
+  {
+    "id": 16,
+    "slug": "phased-array-versal-rfsoc",
+    "title": "Phased-Array Versal RFSoC Tx/Rx",
+    "subtitle": "Integrated antenna backplane system",
+    "category": "RF & Transceivers",
+    "form": "Antenna backplane",
+    "family": "Versal",
+    "processor": "AMD Versal RFSoC",
+    "channels": 16,
+    "summary": "Avarthana's phased-array Versal RFSoC transmit/receive platform integrates a 4 x 4 cavity-backed patch sub-array with RF front-end electronics and an acquisition interface.",
+    "description": [
+      "Avarthana's phased-array Versal RFSoC transmit/receive platform integrates a 4 x 4 cavity-backed patch sub-array with RF front-end electronics and an acquisition interface. Low-noise amplification, filtering and adjustable gain are packaged beneath the antenna using an RFSiP or equivalent implementation. The Versal RFSoC acquisition architecture provides a configurable path into the radar processing system. Antenna band, conversion channels and transmit characteristics are defined for each application."
+    ],
+    "highlights": [
+      "Integrated sub-array: 4 x 4 cavity-backed patch arrangement with sixteen antenna elements.",
+      "RF front-end integration: LNA, filtering and gain functions packaged with the antenna assembly.",
+      "Adjustable receive gain: 65 +/-15 dB receive-gain target with 1 dB adjustment steps.",
+      "Low-noise receive path: Approximately 1 dB noise-figure target for the RF front-end design.",
+      "RF acquisition interface: Versal RFSoC architecture selected for the required radar signal chain.",
+      "Compact packaging: RFSiP or equivalent electronics integrated beneath the antenna."
+    ],
+    "specs": {
+      "Antenna & materials": [
+        [
+          "Acquisition architecture",
+          "Versal RFSoC; device and converter implementation configurable"
+        ],
+        [
+          "Antenna topology",
+          "Cavity-backed patch antenna array"
+        ],
+        [
+          "Sub-array size",
+          "4 x 4; 16 antenna elements"
+        ],
+        [
+          "RF operating band",
+          "Application-specific; defined with the antenna design"
+        ],
+        [
+          "Substrate",
+          "RT/duroid 5880 or equivalent"
+        ],
+        [
+          "Substrate properties",
+          "Relative permittivity: 2.2; copper: 1 oz"
+        ],
+        [
+          "Substrate thickness",
+          "Nominal 1.575; dimensional unit requires design confirmation"
+        ],
+        [
+          "Cavity construction",
+          "Aluminum with powder coating"
+        ]
+      ],
+      "RF front-end targets": [
+        [
+          "RF front end",
+          "Low-noise amplifier, filter and gain functions"
+        ],
+        [
+          "RF packaging",
+          "RFSiP or equivalent integrated packaging"
+        ],
+        [
+          "Receive gain target",
+          "65 +/-15 dB"
+        ],
+        [
+          "Gain control",
+          "1 dB adjustment steps"
+        ],
+        [
+          "Noise-figure target",
+          "Approximately 1 dB"
+        ],
+        [
+          "Anti-alias filtering",
+          "50 dB stop-band attenuation at 1.1 GHz and 1.5 GHz"
+        ]
+      ],
+      "RF acquisition & packaging": [
+        [
+          "Electronics placement",
+          "RF front end and gain module beneath the antenna"
+        ],
+        [
+          "Acquisition coupling",
+          "RF electronics routed to the RF data acquisition interface"
+        ],
+        [
+          "Transmit configuration",
+          "Waveform, frequency and output level defined per application"
+        ],
+        [
+          "Conversion configuration",
+          "ADC/DAC population, rate and resolution selected per device"
+        ],
+        [
+          "Mechanical integration",
+          "Antenna, RF electronics and acquisition interface co-designed"
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "Sub-array",
+        "4 × 4 (16 ch)"
+      ],
+      [
+        "Receive gain",
+        "65 ±15 dB"
+      ],
+      [
+        "Noise figure",
+        "~1 dB"
+      ],
+      [
+        "Architecture",
+        "Versal RFSoC"
+      ]
+    ],
+    "image": "/assets/products/phased-array-versal-rfsoc.webp",
+    "diagram": "/downloads/T5_P12_Block_Diagram.png",
+    "document_code": "T5_P12",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "datasheet": "/downloads/T5_P12.pdf",
+    "diagram_pdf": "/downloads/T5_P12_Block_Diagram.pdf",
+    "download_package": "/downloads/T5_P12_Documents.zip",
+    "document_sizes": {
+      "datasheet": 2603470,
+      "diagram_pdf": 2487276,
+      "download_package": 4601820
+    },
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 17,
+    "slug": "phased-array-agilex-transceiver",
+    "title": "Phased-Array Agilex FPGA Tx/Rx",
+    "subtitle": "Integrated antenna backplane system",
+    "category": "RF & Transceivers",
+    "form": "Antenna backplane",
+    "family": "Agilex",
+    "processor": "Agilex FPGA",
+    "channels": 16,
+    "summary": "Avarthana's phased-array Agilex FPGA transmit/receive platform integrates a 4 x 4 cavity-backed patch sub-array with RF front-end electronics and an acquisition interface.",
+    "description": [
+      "Avarthana's phased-array Agilex FPGA transmit/receive platform integrates a 4 x 4 cavity-backed patch sub-array with RF front-end electronics and an acquisition interface. Low-noise amplification, filtering and adjustable gain are packaged beneath the antenna using an RFSiP or equivalent implementation. The Agilex FPGA acquisition architecture provides a configurable path into the radar processing system. Antenna band, conversion channels and transmit characteristics are defined for each application."
+    ],
+    "highlights": [
+      "Integrated sub-array: 4 x 4 cavity-backed patch arrangement with sixteen antenna elements.",
+      "RF front-end integration: LNA, filtering and gain functions packaged with the antenna assembly.",
+      "Adjustable receive gain: 65 +/-15 dB receive-gain target with 1 dB adjustment steps.",
+      "Low-noise receive path: Approximately 1 dB noise-figure target for the RF front-end design.",
+      "RF acquisition interface: Agilex FPGA architecture selected for the required radar signal chain.",
+      "Compact packaging: RFSiP or equivalent electronics integrated beneath the antenna."
+    ],
+    "specs": {
+      "Antenna & materials": [
+        [
+          "Acquisition architecture",
+          "Agilex FPGA; device and converter implementation configurable"
+        ],
+        [
+          "Antenna topology",
+          "Cavity-backed patch antenna array"
+        ],
+        [
+          "Sub-array size",
+          "4 x 4; 16 antenna elements"
+        ],
+        [
+          "RF operating band",
+          "Application-specific; defined with the antenna design"
+        ],
+        [
+          "Substrate",
+          "RT/duroid 5880 or equivalent"
+        ],
+        [
+          "Substrate properties",
+          "Relative permittivity: 2.2; copper: 1 oz"
+        ],
+        [
+          "Substrate thickness",
+          "Nominal 1.575; dimensional unit requires design confirmation"
+        ],
+        [
+          "Cavity construction",
+          "Aluminum with powder coating"
+        ]
+      ],
+      "RF front-end targets": [
+        [
+          "RF front end",
+          "Low-noise amplifier, filter and gain functions"
+        ],
+        [
+          "RF packaging",
+          "RFSiP or equivalent integrated packaging"
+        ],
+        [
+          "Receive gain target",
+          "65 +/-15 dB"
+        ],
+        [
+          "Gain control",
+          "1 dB adjustment steps"
+        ],
+        [
+          "Noise-figure target",
+          "Approximately 1 dB"
+        ],
+        [
+          "Anti-alias filtering",
+          "50 dB stop-band attenuation at 1.1 GHz and 1.5 GHz"
+        ]
+      ],
+      "RF acquisition & packaging": [
+        [
+          "Electronics placement",
+          "RF front end and gain module beneath the antenna"
+        ],
+        [
+          "Acquisition coupling",
+          "RF electronics routed to the RF data acquisition interface"
+        ],
+        [
+          "Transmit configuration",
+          "Waveform, frequency and output level defined per application"
+        ],
+        [
+          "Conversion configuration",
+          "ADC/DAC population, rate and resolution selected per device"
+        ],
+        [
+          "Mechanical integration",
+          "Antenna, RF electronics and acquisition interface co-designed"
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "Sub-array",
+        "4 × 4 (16 ch)"
+      ],
+      [
+        "Receive gain",
+        "65 ±15 dB"
+      ],
+      [
+        "Noise figure",
+        "~1 dB"
+      ],
+      [
+        "Architecture",
+        "Agilex FPGA"
+      ]
+    ],
+    "image": "/assets/products/phased-array-agilex-transceiver.webp",
+    "diagram": "/downloads/T5_P13_Block_Diagram.png",
+    "document_code": "T5_P13",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "datasheet": "/downloads/T5_P13.pdf",
+    "diagram_pdf": "/downloads/T5_P13_Block_Diagram.pdf",
+    "download_package": "/downloads/T5_P13_Documents.zip",
+    "document_sizes": {
+      "datasheet": 2551807,
+      "diagram_pdf": 2435617,
+      "download_package": 4532500
+    },
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 18,
+    "slug": "phased-array-versal-processing",
+    "title": "Phased-Array Versal FPGA",
+    "subtitle": "Radar signal & data processing system",
+    "category": "Radar & AI Processing",
+    "form": "Antenna backplane",
+    "family": "Versal",
+    "processor": "AMD Versal FPGA",
+    "channels": null,
+    "summary": "Avarthana's Versal FPGA radar processing platform combines programmable processing, local DDR4 memory and optical data exchange for modular radar architectures.",
+    "description": [
+      "Avarthana's Versal FPGA radar processing platform combines programmable processing, local DDR4 memory and optical data exchange for modular radar architectures. The antenna-backplane implementation connects distributed acquisition electronics to the radar processing chain. Reference timing, digital I/O and board monitoring support coordinated operation. Application firmware defines the signal-processing pipeline and data interfaces for each deployment."
+    ],
+    "highlights": [
+      "Adaptive processing: Programmable hardware for application-specific radar data pipelines.",
+      "Optical data exchange: 64-lane optical connectivity target, subject to device and link allocation.",
+      "Local DDR4 memory: 32 GB programmable-logic and 16 GB processing-memory interface targets.",
+      "Network interfaces: Three 10/25GbE SFP interfaces and one copper 10GbE target.",
+      "Timing and control: 100 MHz reference, SYSREF and IRIG-B timing provisions.",
+      "Thermal management: Conduction/liquid cooling options with monitoring and diagnostics."
+    ],
+    "specs": {
+      "Processing & memory": [
+        [
+          "Processing architecture",
+          "Versal FPGA; device and package selected per configuration"
+        ],
+        [
+          "Programmable-logic memory",
+          "1 x 32 GB DDR4 interface target"
+        ],
+        [
+          "Processing memory",
+          "1 x 16 GB DDR4 interface target"
+        ],
+        [
+          "Non-volatile memory",
+          "32 GB eMMC; 2 Gb flash (256 MB)"
+        ],
+        [
+          "Removable / SSD storage",
+          "Two SD interfaces; 2 TB SSD target; allocation configurable"
+        ]
+      ],
+      "Optical, Ethernet & digital I/O": [
+        [
+          "Optical serial I/O",
+          "64 lanes through optical transceivers (configuration target)"
+        ],
+        [
+          "Additional serial I/O",
+          "Remaining serial lanes allocated through SFP interfaces"
+        ],
+        [
+          "SFP Ethernet",
+          "3 x 25GbE / 10GbE targets"
+        ],
+        [
+          "Copper Ethernet",
+          "1 x 10GbE target"
+        ],
+        [
+          "GPIO",
+          "40 single-ended / differential I/O target"
+        ],
+        [
+          "Debug / service",
+          "JTAG / USB service; HSDP where supported by selected device; one UART"
+        ],
+        [
+          "Serial-link allocation",
+          "Lane counts are design targets; device capacity, optical modules and physical routing define the achievable implementation."
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock inputs / outputs",
+          "100 MHz external / internal; SYSREF and 100 MHz outputs"
+        ],
+        [
+          "Time reference",
+          "IRIG-B interface and time stamping"
+        ]
+      ],
+      "Antenna-backplane integration": [
+        [
+          "Mechanical integration",
+          "Antenna-backplane processing assembly; mounting configurable"
+        ],
+        [
+          "Power architecture",
+          "Input rails and power budget defined per assembly"
+        ],
+        [
+          "Data path",
+          "Optical interfaces connect antenna-side acquisition electronics to downstream radar processing."
+        ],
+        [
+          "Interface allocation",
+          "Connector layout, optical population, timing distribution and mounting are defined for the selected antenna assembly."
+        ]
+      ],
+      "Monitoring, thermal & diagnostics": [
+        [
+          "Health monitoring",
+          "Over/undervoltage and temperature; status LEDs and fault reporting"
+        ],
+        [
+          "Thermal sensing",
+          "At least two sensors connected to the processing device"
+        ],
+        [
+          "Diagnostics",
+          "Hardware loopback and built-in-test provisions"
+        ],
+        [
+          "Cooling",
+          "Conduction-cooled and liquid-cooled design options"
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "PL + PS memory",
+        "32 + 16 GB"
+      ],
+      [
+        "Optical I/O",
+        "64 lanes"
+      ],
+      [
+        "Ethernet",
+        "3 × 25G + 10GbE"
+      ],
+      [
+        "Architecture",
+        "AMD Versal"
+      ]
+    ],
+    "image": "/assets/products/phased-array-versal-processing.webp",
+    "diagram": "/downloads/T6_P14_Block_Diagram.png",
+    "document_code": "T6_P14",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "datasheet": "/downloads/T6_P14.pdf",
+    "diagram_pdf": "/downloads/T6_P14_Block_Diagram.pdf",
+    "download_package": "/downloads/T6_P14_Documents.zip",
+    "document_sizes": {
+      "datasheet": 2330084,
+      "diagram_pdf": 1516496,
+      "download_package": 4263026
+    },
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 19,
+    "slug": "phased-array-agilex-processing",
+    "title": "Phased-Array Agilex FPGA",
+    "subtitle": "Radar signal & data processing system",
+    "category": "Radar & AI Processing",
+    "form": "Antenna backplane",
+    "family": "Agilex",
+    "processor": "Agilex FPGA",
+    "channels": null,
+    "summary": "Avarthana's Agilex FPGA radar processing platform combines programmable processing, local DDR4 memory and optical data exchange for modular radar architectures.",
+    "description": [
+      "Avarthana's Agilex FPGA radar processing platform combines programmable processing, local DDR4 memory and optical data exchange for modular radar architectures. The antenna-backplane implementation connects distributed acquisition electronics to the radar processing chain. Reference timing, digital I/O and board monitoring support coordinated operation. Application firmware defines the signal-processing pipeline and data interfaces for each deployment."
+    ],
+    "highlights": [
+      "Adaptive processing: Programmable hardware for application-specific radar data pipelines.",
+      "Optical data exchange: 64-lane optical connectivity target, subject to device and link allocation.",
+      "Local DDR4 memory: 32 GB programmable-logic and 16 GB processing-memory interface targets.",
+      "Network interfaces: Three 10/25GbE SFP interfaces and one copper 10GbE target.",
+      "Timing and control: 100 MHz reference, SYSREF and IRIG-B timing provisions.",
+      "Thermal management: Conduction/liquid cooling options with monitoring and diagnostics."
+    ],
+    "specs": {
+      "Processing & memory": [
+        [
+          "Processing architecture",
+          "Agilex FPGA; device and package selected per configuration"
+        ],
+        [
+          "Programmable-logic memory",
+          "1 x 32 GB DDR4 interface target"
+        ],
+        [
+          "Processing memory",
+          "1 x 16 GB DDR4 interface target"
+        ],
+        [
+          "Non-volatile memory",
+          "32 GB eMMC; 2 Gb flash (256 MB)"
+        ],
+        [
+          "Removable / SSD storage",
+          "Two SD interfaces; 2 TB SSD target; allocation configurable"
+        ]
+      ],
+      "Optical, Ethernet & digital I/O": [
+        [
+          "Optical serial I/O",
+          "64 lanes through optical transceivers (configuration target)"
+        ],
+        [
+          "Additional serial I/O",
+          "Remaining serial lanes allocated through SFP interfaces"
+        ],
+        [
+          "SFP Ethernet",
+          "3 x 25GbE / 10GbE targets"
+        ],
+        [
+          "Copper Ethernet",
+          "1 x 10GbE target"
+        ],
+        [
+          "GPIO",
+          "40 single-ended / differential I/O target"
+        ],
+        [
+          "Debug / service",
+          "Device-specific JTAG / debug; USB service interface; one UART"
+        ],
+        [
+          "Serial-link allocation",
+          "Lane counts are design targets; device capacity, optical modules and physical routing define the achievable implementation."
+        ]
+      ],
+      "Clock & synchronization": [
+        [
+          "Clock inputs / outputs",
+          "100 MHz external / internal; SYSREF and 100 MHz outputs"
+        ],
+        [
+          "Time reference",
+          "IRIG-B interface and time stamping"
+        ]
+      ],
+      "Antenna-backplane integration": [
+        [
+          "Mechanical integration",
+          "Antenna-backplane processing assembly; mounting configurable"
+        ],
+        [
+          "Power architecture",
+          "Input rails and power budget defined per assembly"
+        ],
+        [
+          "Data path",
+          "Optical interfaces connect antenna-side acquisition electronics to downstream radar processing."
+        ],
+        [
+          "Interface allocation",
+          "Connector layout, optical population, timing distribution and mounting are defined for the selected antenna assembly."
+        ]
+      ],
+      "Monitoring, thermal & diagnostics": [
+        [
+          "Health monitoring",
+          "Over/undervoltage and temperature; status LEDs and fault reporting"
+        ],
+        [
+          "Thermal sensing",
+          "At least two sensors connected to the processing device"
+        ],
+        [
+          "Diagnostics",
+          "Hardware loopback and built-in-test provisions"
+        ],
+        [
+          "Cooling",
+          "Conduction-cooled and liquid-cooled design options"
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation."
+    ],
+    "metrics": [
+      [
+        "PL + PS memory",
+        "32 + 16 GB"
+      ],
+      [
+        "Optical I/O",
+        "64 lanes"
+      ],
+      [
+        "Ethernet",
+        "3 × 25G + 10GbE"
+      ],
+      [
+        "Architecture",
+        "Agilex FPGA"
+      ]
+    ],
+    "image": "/assets/products/phased-array-agilex-processing.webp",
+    "diagram": "/downloads/T6_P15_Block_Diagram.png",
+    "document_code": "T6_P15",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "datasheet": "/downloads/T6_P15.pdf",
+    "diagram_pdf": "/downloads/T6_P15_Block_Diagram.pdf",
+    "download_package": "/downloads/T6_P15_Documents.zip",
+    "document_sizes": {
+      "datasheet": 2424993,
+      "diagram_pdf": 1611439,
+      "download_package": 4645702
+    },
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 20,
+    "slug": "amd-radar-processor",
+    "title": "AMD Processor",
+    "subtitle": "Radar processing system",
+    "category": "Radar & AI Processing",
+    "form": "System",
+    "family": "AMD",
+    "processor": "AMD Processor",
+    "channels": null,
+    "summary": "Avarthana's AMD Processor radar processing system provides a configurable computing platform for radar data handling, application processing and operator display integration.",
+    "description": [
+      "Avarthana's AMD Processor radar processing system provides a configurable computing platform for radar data handling, application processing and operator display integration. The AMD architecture supports a processor configuration selected for the workload and I/O requirements. High-speed networking, PCIe expansion, serial interfaces and local storage support connection to radar acquisition and control subsystems. Cooling and power implementation are matched to the final system configuration."
+    ],
+    "highlights": [
+      "Radar computing: AMD Processor platform for application-specific radar data processing.",
+      "Memory capacity: 64 GB system-memory target with platform-specific implementation.",
+      "Network integration: 1/10/40/100GbE interface targets for radar system connectivity.",
+      "PCIe expansion: 22-lane connectivity target; generation and routing configuration-dependent.",
+      "Control and display: USB, UART, GPIO and high-resolution display interface provisions.",
+      "Thermal integration: Liquid/conduction cooling options and at least two thermal sensors."
+    ],
+    "specs": {
+      "Compute, memory & storage": [
+        [
+          "Processor",
+          "AMD Processor; exact device / module selected per configuration"
+        ],
+        [
+          "Compute architecture",
+          "Processor architecture and accelerator options selected per workload"
+        ],
+        [
+          "System memory",
+          "64 GB target; 256-bit LPDDR5 is a platform target, subject to processor/controller compatibility."
+        ],
+        [
+          "Local storage",
+          "64 GB eMMC 5.1 storage target; controller and implementation are platform-dependent."
+        ]
+      ],
+      "Networking & expansion": [
+        [
+          "Gigabit Ethernet",
+          "1 x GbE target"
+        ],
+        [
+          "10 Gigabit Ethernet",
+          "1 x 10GbE target"
+        ],
+        [
+          "40 Gigabit Ethernet",
+          "1 x 40GbE target"
+        ],
+        [
+          "100 Gigabit Ethernet",
+          "Interface target; port count and controller allocation configurable"
+        ],
+        [
+          "PCI Express",
+          "22 lanes target; generation, topology and usable lanes configurable"
+        ]
+      ],
+      "Control & display": [
+        [
+          "USB",
+          "4 x USB 2.0 target"
+        ],
+        [
+          "Serial interfaces",
+          "4 x UART target"
+        ],
+        [
+          "GPIO",
+          "Provision for general-purpose I/O; count configuration-dependent"
+        ],
+        [
+          "Display capability",
+          "One 8K60 multi-mode output target; implementation platform-dependent"
+        ],
+        [
+          "Display interfaces",
+          "DP 1.4a (+MST) / eDP 1.4a / HDMI 2.1 target options"
+        ]
+      ],
+      "System integration": [
+        [
+          "Form factor / mounting",
+          "Defined per system configuration"
+        ],
+        [
+          "Input power / budget",
+          "Input rails and consumption defined per configuration"
+        ],
+        [
+          "Thermal sensing",
+          "At least two sensors connected to the processing device"
+        ],
+        [
+          "Cooling",
+          "Liquid-cooled and conduction-cooled design options"
+        ],
+        [
+          "Network implementation",
+          "40/100GbE and other expanded interfaces can require carrier controllers or expansion hardware."
+        ],
+        [
+          "PCIe allocation",
+          "The 22-lane target is not a fixed simultaneous port arrangement; generation and topology depend on the platform."
+        ],
+        [
+          "Software and display",
+          "Applications, operating environment and display modes are selected for the processor, graphics resources and carrier."
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation.",
+      "The supplied block diagram is a conceptual architecture, not a detailed released hardware drawing."
+    ],
+    "metrics": [
+      [
+        "System memory",
+        "64 GB LPDDR5"
+      ],
+      [
+        "Networking",
+        "1/10/40/100GbE"
+      ],
+      [
+        "PCIe expansion",
+        "22 lanes"
+      ],
+      [
+        "Display",
+        "8K60 multi-mode"
+      ]
+    ],
+    "image": "/assets/products/amd-radar-processor.webp",
+    "diagram": "/downloads/T7_P17_Block_Diagram.png",
+    "document_code": "T7_P17",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "datasheet": "/downloads/T7_P17.pdf",
+    "diagram_pdf": "/downloads/T7_P17_Block_Diagram.pdf",
+    "download_package": "/downloads/T7_P17_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1245491,
+      "diagram_pdf": 435084,
+      "download_package": 1709651
+    },
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  },
+  {
+    "id": 21,
+    "slug": "intel-radar-processor",
+    "title": "Intel Processor",
+    "subtitle": "Radar processing system",
+    "category": "Radar & AI Processing",
+    "form": "System",
+    "family": "Intel",
+    "processor": "Intel Processor",
+    "channels": null,
+    "summary": "Avarthana's Intel Processor radar processing system provides a configurable computing platform for radar data handling, application processing and operator display integration.",
+    "description": [
+      "Avarthana's Intel Processor radar processing system provides a configurable computing platform for radar data handling, application processing and operator display integration. The Intel architecture supports a processor configuration selected for the workload and I/O requirements. High-speed networking, PCIe expansion, serial interfaces and local storage support connection to radar acquisition and control subsystems. Cooling and power implementation are matched to the final system configuration."
+    ],
+    "highlights": [
+      "Radar computing: Intel Processor platform for application-specific radar data processing.",
+      "Memory capacity: 64 GB system-memory target with platform-specific implementation.",
+      "Network integration: 1/10/40/100GbE interface targets for radar system connectivity.",
+      "PCIe expansion: 22-lane connectivity target; generation and routing configuration-dependent.",
+      "Control and display: USB, UART, GPIO and high-resolution display interface provisions.",
+      "Thermal integration: Liquid/conduction cooling options and at least two thermal sensors."
+    ],
+    "specs": {
+      "Compute, memory & storage": [
+        [
+          "Processor",
+          "Intel Processor; exact device / module selected per configuration"
+        ],
+        [
+          "Compute architecture",
+          "Processor architecture and accelerator options selected per workload"
+        ],
+        [
+          "System memory",
+          "64 GB target; 256-bit LPDDR5 is a platform target, subject to processor/controller compatibility."
+        ],
+        [
+          "Local storage",
+          "64 GB eMMC 5.1 storage target; controller and implementation are platform-dependent."
+        ]
+      ],
+      "Networking & expansion": [
+        [
+          "Gigabit Ethernet",
+          "1 x GbE target"
+        ],
+        [
+          "10 Gigabit Ethernet",
+          "1 x 10GbE target"
+        ],
+        [
+          "40 Gigabit Ethernet",
+          "1 x 40GbE target"
+        ],
+        [
+          "100 Gigabit Ethernet",
+          "Interface target; port count and controller allocation configurable"
+        ],
+        [
+          "PCI Express",
+          "22 lanes target; generation, topology and usable lanes configurable"
+        ]
+      ],
+      "Control & display": [
+        [
+          "USB",
+          "4 x USB 2.0 target"
+        ],
+        [
+          "Serial interfaces",
+          "4 x UART target"
+        ],
+        [
+          "GPIO",
+          "Provision for general-purpose I/O; count configuration-dependent"
+        ],
+        [
+          "Display capability",
+          "One 8K60 multi-mode output target; implementation platform-dependent"
+        ],
+        [
+          "Display interfaces",
+          "DP 1.4a (+MST) / eDP 1.4a / HDMI 2.1 target options"
+        ]
+      ],
+      "System integration": [
+        [
+          "Form factor / mounting",
+          "Defined per system configuration"
+        ],
+        [
+          "Input power / budget",
+          "Input rails and consumption defined per configuration"
+        ],
+        [
+          "Thermal sensing",
+          "At least two sensors connected to the processing device"
+        ],
+        [
+          "Cooling",
+          "Liquid-cooled and conduction-cooled design options"
+        ],
+        [
+          "Network implementation",
+          "40/100GbE and other expanded interfaces can require carrier controllers or expansion hardware."
+        ],
+        [
+          "PCIe allocation",
+          "The 22-lane target is not a fixed simultaneous port arrangement; generation and topology depend on the platform."
+        ],
+        [
+          "Software and display",
+          "Applications, operating environment and display modes are selected for the processor, graphics resources and carrier."
+        ]
+      ],
+      "Reliability & qualification targets": [
+        [
+          "Reliability target",
+          "MTBF: 30,000 hours at +65 C"
+        ],
+        [
+          "Endurance target",
+          "168 hours of continuous operation testing"
+        ],
+        [
+          "Qualification targets",
+          "MIL-STD-810H ESS; MIL-STD-461G: CS116, RS103, CE102, RE102"
+        ]
+      ]
+    },
+    "notes": [
+      "Revision 03 documentation contains configurable design targets; device resources, interfaces and completed qualification are confirmed for the released implementation.",
+      "The supplied block diagram is a conceptual architecture, not a detailed released hardware drawing."
+    ],
+    "metrics": [
+      [
+        "System memory",
+        "64 GB LPDDR5"
+      ],
+      [
+        "Networking",
+        "1/10/40/100GbE"
+      ],
+      [
+        "PCIe expansion",
+        "22 lanes"
+      ],
+      [
+        "Display",
+        "8K60 multi-mode"
+      ]
+    ],
+    "image": "/assets/products/intel-radar-processor.webp",
+    "diagram": "/downloads/T7_P18_Block_Diagram.png",
+    "document_code": "T7_P18",
+    "document_revision": "Rev 03 · 17 November 2026",
+    "datasheet": "/downloads/T7_P18.pdf",
+    "diagram_pdf": "/downloads/T7_P18_Block_Diagram.pdf",
+    "download_package": "/downloads/T7_P18_Documents.zip",
+    "document_sizes": {
+      "datasheet": 1245514,
+      "diagram_pdf": 435100,
+      "download_package": 1708326
+    },
+    "document_pages": {
+      "datasheet": 4,
+      "diagram_pdf": 1
+    }
+  }
+]

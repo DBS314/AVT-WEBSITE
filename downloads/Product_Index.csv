@@ -1,0 +1,19 @@
+﻿Filename,Type,Product number,Product,Datasheet,Diagram PDF,Diagram PNG
+T1_P1,1,1,6U OpenVPX AMD RFSoC,Datasheets/T1_P1.pdf,Block_Diagrams/PDF/T1_P1_Block_Diagram.pdf,Block_Diagrams/PNG/T1_P1_Block_Diagram.png
+T1_P2,1,2,6U OpenVPX Versal RFSoC,Datasheets/T1_P2.pdf,Block_Diagrams/PDF/T1_P2_Block_Diagram.pdf,Block_Diagrams/PNG/T1_P2_Block_Diagram.png
+T1_P3,1,3,6U OpenVPX Agilex FPGA,Datasheets/T1_P3.pdf,Block_Diagrams/PDF/T1_P3_Block_Diagram.pdf,Block_Diagrams/PNG/T1_P3_Block_Diagram.png
+T2_P4,2,4,6U OpenVPX AMD Versal ACAP,Datasheets/T2_P4.pdf,Block_Diagrams/PDF/T2_P4_Block_Diagram.pdf,Block_Diagrams/PNG/T2_P4_Block_Diagram.png
+T2_P5,2,5,6U OpenVPX Agilex FPGA,Datasheets/T2_P5.pdf,Block_Diagrams/PDF/T2_P5_Block_Diagram.pdf,Block_Diagrams/PNG/T2_P5_Block_Diagram.png
+T3_P6,3,6,3U OpenVPX AMD RFSoC,Datasheets/T3_P6.pdf,Block_Diagrams/PDF/T3_P6_Block_Diagram.pdf,Block_Diagrams/PNG/T3_P6_Block_Diagram.png
+T3_P7,3,7,3U OpenVPX Versal RFSoC,Datasheets/T3_P7.pdf,Block_Diagrams/PDF/T3_P7_Block_Diagram.pdf,Block_Diagrams/PNG/T3_P7_Block_Diagram.png
+T3_P8,3,8,3U OpenVPX Agilex FPGA,Datasheets/T3_P8.pdf,Block_Diagrams/PDF/T3_P8_Block_Diagram.pdf,Block_Diagrams/PNG/T3_P8_Block_Diagram.png
+T4_P9,4,9,3U OpenVPX AMD Versal,Datasheets/T4_P9.pdf,Block_Diagrams/PDF/T4_P9_Block_Diagram.pdf,Block_Diagrams/PNG/T4_P9_Block_Diagram.png
+T4_P10,4,10,3U OpenVPX Agilex FPGA,Datasheets/T4_P10.pdf,Block_Diagrams/PDF/T4_P10_Block_Diagram.pdf,Block_Diagrams/PNG/T4_P10_Block_Diagram.png
+T5_P11,5,11,Phased-Array RFSoC Tx/Rx,Datasheets/T5_P11.pdf,Block_Diagrams/PDF/T5_P11_Block_Diagram.pdf,Block_Diagrams/PNG/T5_P11_Block_Diagram.png
+T5_P12,5,12,Phased-Array Versal RFSoC Tx/Rx,Datasheets/T5_P12.pdf,Block_Diagrams/PDF/T5_P12_Block_Diagram.pdf,Block_Diagrams/PNG/T5_P12_Block_Diagram.png
+T5_P13,5,13,Phased-Array Agilex FPGA Tx/Rx,Datasheets/T5_P13.pdf,Block_Diagrams/PDF/T5_P13_Block_Diagram.pdf,Block_Diagrams/PNG/T5_P13_Block_Diagram.png
+T6_P14,6,14,Phased-Array Versal FPGA,Datasheets/T6_P14.pdf,Block_Diagrams/PDF/T6_P14_Block_Diagram.pdf,Block_Diagrams/PNG/T6_P14_Block_Diagram.png
+T6_P15,6,15,Phased-Array Agilex FPGA,Datasheets/T6_P15.pdf,Block_Diagrams/PDF/T6_P15_Block_Diagram.pdf,Block_Diagrams/PNG/T6_P15_Block_Diagram.png
+T7_P16,7,16,NVIDIA Jetson AGX Orin,Datasheets/T7_P16.pdf,Block_Diagrams/PDF/T7_P16_Block_Diagram.pdf,Block_Diagrams/PNG/T7_P16_Block_Diagram.png
+T7_P17,7,17,AMD Processor,Datasheets/T7_P17.pdf,Block_Diagrams/PDF/T7_P17_Block_Diagram.pdf,Block_Diagrams/PNG/T7_P17_Block_Diagram.png
+T7_P18,7,18,Intel Processor,Datasheets/T7_P18.pdf,Block_Diagrams/PDF/T7_P18_Block_Diagram.pdf,Block_Diagrams/PNG/T7_P18_Block_Diagram.png
